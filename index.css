@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: black;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.main video{
+    object-fit: cover;
+    margin-left: 20rem;
+    margin-top: -8%;
+    transform: rotate(180deg);
+    width: 70%;
+}
+
+.main h1{
+    position: absolute;
+    top: 34%;
+    left: 22%;
+    color: whitesmoke;
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+}
+
+.main h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: anim 0s linear forwards;
+}
+
+.main h1 .s1:nth-child(1){
+    animation: anim 5s  linear forwards;
+}
+
+.main h1 .s1:nth-child(2){
+    animation: anim 10s linear forwards;
+}
+
+.main h1 .s1:nth-child(3){
+    animation: anim 15s  linear forwards;
+}
+
+.main h1 .s1:nth-child(4){
+    animation: anim 20s  linear forwards;
+}
+
+.main h1 .s1:nth-child(5){
+    animation: anim 25s  linear forwards;
+}
+
+.main h1 .s1:nth-child(6){
+    animation: anim 30s  linear forwards;
+}
+
+.main h1 .s1:nth-child(7){
+    animation: anim 35s  linear forwards;
+}
+
+.main h1 .s1:nth-child(8){
+    animation: anim 40s  linear forwards;
+}
+
+.main h1 .s1:nth-child(9){
+    animation: anim 45s  linear forwards;
+}
+
+.main h1 .s1:nth-child(10){
+    animation: anim 50s  linear forwards;
+}
+
+.main h1 .s1:nth-child(11){
+    animation: anim 60s  linear forwards;
+}
+
+.main h1 .s1:nth-child(12){
+    animation: anim 65s  linear forwards;
+}
+
+.main h1 .s1:nth-child(13){
+    animation: anim 70s  linear forwards;
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
